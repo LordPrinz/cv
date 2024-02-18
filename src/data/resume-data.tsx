@@ -224,7 +224,7 @@ export const RESUME_DATA = {
     {
       title: "Graphite",
       techStack: ["Side Project", "TypeScript", "React.js", "Tailwind", "SVG"],
-      description: "The tool for visualising numerous graph algorithms.",
+      description: "A tool for visualising numerous graph algorithms.",
 
       link: {
         label: "graphite",

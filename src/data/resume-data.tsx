@@ -92,8 +92,10 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js",
     "Node.js",
-    "Photoshop/Figma",
+    "Tailwind/SCSS",
+    "React Native",
     "Mongodb/PostgreSQL/MySQL",
+    "Photoshop/Figma",
     "C++",
   ],
   projects: [

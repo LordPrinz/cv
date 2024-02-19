@@ -108,7 +108,7 @@ export const RESUME_DATA = {
         "MongoDB",
         "Tailwind CSS",
       ],
-      description: "A ling shorener application with extra free features",
+      description: "A ling shortener application with extra free features",
       logo: dzajcoLogo,
       link: {
         label: "dzaj.de",

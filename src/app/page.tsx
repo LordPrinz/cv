@@ -189,7 +189,7 @@ export default function Page() {
         href="https://cv.dzaj.de"
         className="fixed bottom-0 right-10 hidden text-xs text-muted-foreground print:block"
       >
-        https://cv.dzaj.de
+        Interactive CV - https://cv.dzaj.de
       </a>
       <CommandMenu
         links={[

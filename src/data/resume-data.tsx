@@ -108,7 +108,7 @@ export const RESUME_DATA = {
         "MongoDB",
         "Tailwind CSS",
       ],
-      description: "A ling shortener application with extra free features",
+      description: "A link shortener application with extra free features",
       logo: dzajcoLogo,
       link: {
         label: "dzaj.de",
@@ -175,7 +175,7 @@ export const RESUME_DATA = {
         "Next.js",
         "Tailwind",
         "Sanity",
-        "Typescript",
+        "TypeScript",
       ],
       description: "Website for a friend's game development organisation.",
 
@@ -191,7 +191,6 @@ export const RESUME_DATA = {
         "Side Project",
         "TypeScript",
         "React.js",
-        "Typescript",
         "Tailwind",
         "GPT-3.5 turbo",
         "Vite",
@@ -253,7 +252,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Raspberry Project Server",
-      techStack: ["Side Project", "Typescript", "Node.js", "Express", "Linux"],
+      techStack: ["Side Project", "TypeScript", "Node.js", "Express", "Linux"],
       description:
         "Server to manage apps remotly on my raspberry pi (under development)",
 
@@ -265,7 +264,7 @@ export const RESUME_DATA = {
 
     {
       title: "Valorant Wrapper",
-      techStack: ["Side Project", "Typescript", "Valorant API"],
+      techStack: ["Side Project", "TypeScript", "Valorant API"],
       description: "A third-party VALORANT API wrapper library.",
 
       link: {
@@ -295,7 +294,7 @@ export const RESUME_DATA = {
       title: "PROJECT: Key (Backend)",
       techStack: [
         "Side Project",
-        "Typescript",
+        "TypeScript",
         "Node.js",
         "Express",
         "MongoDB",

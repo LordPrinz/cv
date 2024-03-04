@@ -105,7 +105,7 @@ export default function Page() {
             return (
               <Card key={award.title}>
                 <CardHeader>
-                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-base">
+                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-sm">
                     <h3 className="font-medium leading-none">
                       <a
                         className="flex items-center  gap-1.5 underline"

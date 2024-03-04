@@ -10,8 +10,7 @@ export const RESUME_DATA = {
     "Passionate Full Stack Developer focused on quality and self-education",
   summary:
     "I am Oskar Płaziński, and my journey embodies a junior developer's unwavering commitment to growth and innovation. With a diverse skill set and successful contributions to various projects, I showcase resilience and adaptability, ready to thrive within any development team.",
-  avatarUrl:
-    "https://media.licdn.com/dms/image/C4E03AQGfnodCCxww5A/profile-displayphoto-shrink_800_800/0/1656342442469?e=2147483647&v=beta&t=zC0kU7-OKI3AKh7lexV7PDp_VNMfzZNsY61DbjTlYjU",
+  avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://dzaj.de",
   contact: {
     email: "plazinski2902@gmail.com",

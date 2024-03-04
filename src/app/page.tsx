@@ -100,19 +100,19 @@ export default function Page() {
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Avards</h2>
-          {RESUME_DATA.avards.map((award) => {
+          <h2 className="text-xl font-bold">Awards</h2>
+          {RESUME_DATA.awards.map((award) => {
             return (
               <Card key={award.title}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
+                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-medium leading-none">
                       <a
                         className="flex items-center  gap-1.5 underline"
                         href={award.link}
                       >
                         {award.title}{" "}
-                        <LinkIcon className="size-6 -translate-y-0.5" />
+                        <LinkIcon className="size-5 -translate-y-0.5" />
                       </a>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">

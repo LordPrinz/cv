@@ -41,11 +41,26 @@ export const RESUME_DATA = {
       end: "2024",
     },
   ],
-  avards: [
+  awards: [
     {
-      title: "Hackheroes 2023",
-      date: "2023",
-      link: "https://hackheroes.pl/",
+      title: 'Laureate of 18th edition of "Gliwicki Laur Nauki"',
+      date: "27 November 2023",
+      link: "https://gliwice.eu/aktualnosci/miasto/gliwicki-laur-nauki-2023",
+    },
+    {
+      title: 'Third place in the "Silesian CYBERhackathon" competition',
+      date: "21-22 June 2023",
+      link: "https://silesiancyberhackathon.pl/",
+    },
+    {
+      title: 'Laureate of 17th edition of "Gliwicki Laur Nauki"',
+      date: "8 November 2022",
+      link: "https://edukacja.gliwice.eu/galeria-oswiatowa/gliwicki-laur-nauki-2022",
+    },
+    {
+      title: 'Third place in the "Motorola Science Cup" competition',
+      date: "13 June 2022",
+      link: "https://science-cup.pl/",
     },
   ],
   work: [

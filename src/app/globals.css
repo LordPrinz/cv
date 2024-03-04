@@ -75,6 +75,21 @@
   }
 }
 
+@layer utilities {
+  .after-dots::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 3px;
+    height: 3px;
+
+    border-radius: 50%;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    @apply bg-foreground;
+  }
+}
 .print-force-new-page {
   page-break-before: always;
 }

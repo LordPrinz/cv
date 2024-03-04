@@ -41,6 +41,13 @@ export const RESUME_DATA = {
       end: "2024",
     },
   ],
+  avards: [
+    {
+      title: "Hackheroes 2023",
+      date: "2023",
+      link: "https://hackheroes.pl/",
+    },
+  ],
   work: [
     {
       company: "Ente",
@@ -54,7 +61,7 @@ export const RESUME_DATA = {
         "Implemented new features, worked on improving train control system, and created a web application for monitoring and controlling trains. Technologies: C++, Linux, TypeScript, React, Node.js",
     },
     {
-      company: "Faro",
+      company: "Erasmus+ Participant at Bpg Multimédia",
       link: "",
       badges: ["Internship"],
       title: "Full Stack Developer",
@@ -75,7 +82,7 @@ export const RESUME_DATA = {
         "Worked on improving train control system. Technologies: C++, Linux",
     },
     {
-      company: "Ipodomi",
+      company: "Erasmus+ Participant at Ipodomi",
       link: "https://ipodomi-kdm.gr/",
       badges: ["Internship"],
       title: "Frontend Developer",

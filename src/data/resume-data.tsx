@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Passionate Full Stack Developer focused on quality and self-education",
   summary:
-    "I am Oskar Płaziński, and my journey embodies a junior developer's unwavering commitment to growth and innovation. With a diverse skill set and successful contributions to various projects, I showcase resilience and adaptability, ready to thrive within any development team.",
+    "I am Oskar Płaziński, and my journey embodies a junior developer's unwavering commitment to growth and innovation. With a diverse skill set and successful contributions to various projects, \n I showcase resilience and adaptability, ready to thrive within any development team.",
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://dzaj.de",
   contact: {
@@ -87,8 +87,8 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
     "React/Next.js",
     "Node.js",
     "Tailwind/SCSS",
@@ -96,6 +96,8 @@ export const RESUME_DATA = {
     "Mongodb/PostgreSQL/MySQL",
     "Photoshop/Figma",
     "C++",
+    "German B2",
+    "English C1",
   ],
   projects: [
     {
@@ -273,14 +275,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PROJECT: Key (Frontend)",
-      techStack: [
-        "Side Project",
-        "Typescript",
-        "React.js",
-        "Tailwind",
-        "Vite",
-        "Uonet+",
-      ],
+      techStack: ["Side Project", "Typescript", "React.js", "Tailwind", "Vite"],
       description:
         "A frontend for a school classroom key system. (Whole project is not finished yet)",
 

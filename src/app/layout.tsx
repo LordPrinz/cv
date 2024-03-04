@@ -1,20 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "Oskar Płaziński",
-  description:
-    "Oskar Płaziński - Passionate Full Stack Developer focused on quality and self-education",
-};
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import { RESUME_DATA } from "@/data/resume-data";
 
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
+export const metadata: Metadata = {
+  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  description: RESUME_DATA.summary,
+};
 
 export default function RootLayout({
   children,
@@ -22,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={GeistSans.className}>
       <body>{children}</body>
     </html>
   );

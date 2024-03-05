@@ -3,7 +3,7 @@ export const LinkIcon = (props: React.SVGProps<SVGSVGElement>) => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 32 32"
       height="200px"
       width="200px"

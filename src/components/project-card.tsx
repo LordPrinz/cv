@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
+import { LinkIcon } from "./icons";
 
 interface Props {
   title: string;
@@ -26,8 +27,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 target="_blank"
                 className="inline-flex items-center gap-1 hover:underline"
               >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
+                {title} <LinkIcon className="size-4 -translate-y-0.5" />
               </a>
             ) : (
               title

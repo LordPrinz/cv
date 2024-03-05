@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
@@ -223,7 +223,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="print-force-new-page relative scroll-mb-16">
           <h2 className="text-xl font-bold">Projects 💻</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -238,14 +238,14 @@ export default function Page() {
               );
             })}
           </div>
-          <p className="mt-10 hidden w-full scale-75 self-end text-xs text-muted-foreground print:block">
-            Wyrażam zgodę na przetwarzanie moich danych osobowych przez (nazwa
-            firmy) w celu prowadzenia rekrutacji na aplikowane przeze mnie
-            stanowisko.
-          </p>
         </Section>
       </section>
 
+      <p className="absolute bottom-0   hidden max-w-xs self-end text-[10px] text-muted-foreground print:block">
+        Wyrażam zgodę na przetwarzanie moich danych osobowych przez (nazwa
+        firmy) w celu prowadzenia rekrutacji na aplikowane przeze mnie
+        stanowisko.
+      </p>
       <a
         href="https://cv.dzaj.de"
         className="fixed bottom-0 right-10 hidden text-xs text-muted-foreground print:block"

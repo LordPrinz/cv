@@ -11,6 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 import { LinkIcon } from "@/components/icons";
 import Image from "next/image";
 import profilePicture from "./opengraph-image.png";
+import RodoParagraph from "@/components/rodo-paragraph";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
@@ -294,12 +295,7 @@ export default function Page() {
           </div>
         </Section>
       </section>
-
-      <p className="absolute bottom-0  hidden max-w-sm self-end text-[10px] text-muted-foreground print:block">
-        Wyrażam zgodę na przetwarzanie moich danych osobowych przez (nazwa
-        firmy) w celu prowadzenia rekrutacji na aplikowane przeze mnie
-        stanowisko.
-      </p>
+      <RodoParagraph />
       <a
         href="https://cv.dzaj.de"
         className="fixed bottom-0 right-10 hidden text-xs text-muted-foreground print:block"

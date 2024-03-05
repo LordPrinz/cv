@@ -156,6 +156,53 @@ export const RESUME_DATA = {
       link: null,
     },
   ],
+  certificates: [
+    {
+      name: "The research project on POLSL",
+      link: "https://dzaj.de/graphite",
+      date: "February 2024",
+    },
+    {
+      name: "React Native",
+      link: "https://www.udemy.com/certificate/UC-c868c3dd-2cd7-4424-b972-334d8800e191/",
+      date: "February 2024",
+    },
+    {
+      name: "Next.js",
+      link: "https://www.udemy.my.com/certificate/UC-6f4ca96d-5890-4bc4-bb5d-8076298b1c69/",
+      date: "September 2022",
+    },
+    {
+      name: "TypeScript",
+      link: "https://www.udemy.my/certificate/UC-f56b763f-0958-4940-88bc-90989fcdbb06",
+      date: "August 2022",
+    },
+    {
+      name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      link: "https://www.udemy.com/certificate/UC-e9a37fc2-a21a-44af-99e9-b80279e27ed3/",
+      date: "June 2022",
+    },
+    {
+      name: "Git & GitHub - The Practical Guide",
+      link: "https://www.udemy.com/certificate/UC-40f20425-a485-4008-88df-c6eb54c33165/",
+      date: "May 2022",
+    },
+    {
+      name: "SQL - The Complete Developer's Guide (MySQL, PostgreSQL)",
+      link: "https://www.udemy.com/certificate/UC-9098e0d5-7581-44ed-8182-ac6dcd2a7144/",
+      date: "December 2021",
+    },
+    {
+      name: "Advanced CSS and Sass",
+      link: "https://www.udemy.com/certificate/UC-cd74bb24-8508-48c3-9a7d-d3051aec7b5c/",
+      date: "August 2021",
+    },
+    {
+      name: "Photoshop Course",
+      link: "https://www.udemy.com/certificate/UC-d45aae91-53ec-414e-ab4a-acec0bd5e204/",
+      date: "November 2020",
+    },
+  ],
   projects: [
     {
       title: "Dzajco",

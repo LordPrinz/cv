@@ -215,7 +215,7 @@ export default function Page() {
           })}
         </Section>
         <Section className="">
-          <h2 className="text-xl font-bold">Skills 🔧</h2>
+          <h2 className="text-xl font-bold">Skills 🛠️</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
@@ -223,7 +223,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="relative scroll-mb-16">
+        <Section className="relative">
           <h2 className="text-xl font-bold">Interests 🎮</h2>
           {RESUME_DATA.interests.map((interest) => {
             return (
@@ -246,6 +246,32 @@ export default function Page() {
                 <CardContent className="mt-2">
                   {interest.description}
                 </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
+        <Section className="relative">
+          <h2 className="text-xl font-bold">Certificates 📜</h2>
+          {RESUME_DATA.certificates.map((certificate) => {
+            return (
+              <Card key={certificate.name}>
+                <CardHeader>
+                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-sm">
+                    <h3 className="font-medium leading-none">
+                      <a
+                        className="flex items-center justify-start gap-1.5 underline print:no-underline"
+                        href={certificate.link}
+                      >
+                        {certificate.name}{" "}
+                        <LinkIcon className="size-5 -translate-y-0.5" />
+                      </a>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certificate.date}
+                    </div>
+                  </div>
+                </CardHeader>
               </Card>
             );
           })}

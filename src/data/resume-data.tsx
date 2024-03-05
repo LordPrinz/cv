@@ -136,6 +136,26 @@ export const RESUME_DATA = {
     "Github",
     "Docker",
   ],
+  interests: [
+    {
+      name: "Programming",
+      description:
+        "I love to create new things and solve problems. I am always looking for new technologies and ways to improve my skills. ",
+      link: "https://github.com/LordPrinz/",
+    },
+    {
+      name: "Music",
+      description:
+        "I play the piano and I like to listen to music. I even had a music channel on YouTube with my covers.",
+      link: "https://www.youtube.com/channel/UCbXJjpfKjvrlOAuUCexGtEA",
+    },
+    {
+      name: "Gaming",
+      description:
+        "I like to play games, especially with my friends. My favourite game is Minecraft since I have much freedom in it.",
+      link: null,
+    },
+  ],
   projects: [
     {
       title: "Dzajco",

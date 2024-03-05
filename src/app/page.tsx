@@ -223,6 +223,31 @@ export default function Page() {
           </div>
         </Section>
 
+        <Section className="relative scroll-mb-16">
+          <h2 className="text-xl font-bold">Interests 🎮</h2>
+          {RESUME_DATA.interests.map((interest) => {
+            return (
+              <Card key={interest.name}>
+                <CardHeader>
+                  <h3 className="font-semibold leading-none">
+                    {interest.link ? (
+                      <a className="flex gap-1 underline" href={interest.link}>
+                        {interest.name}
+                        <LinkIcon className="size-5 -translate-y-0.5" />
+                      </a>
+                    ) : (
+                      interest.name
+                    )}
+                  </h3>
+                </CardHeader>
+                <CardContent className="mt-2">
+                  {interest.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
         <Section className="print-force-new-page relative scroll-mb-16">
           <h2 className="text-xl font-bold">Projects 💻</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">

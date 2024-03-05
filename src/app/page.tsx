@@ -9,7 +9,8 @@ import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { LinkIcon } from "@/components/icons";
-
+import Image from "next/image";
+import profilePicture from "./opengraph-image.png";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
@@ -89,7 +90,12 @@ export default function Page() {
           </div>
 
           <Avatar className="size-28 md:size-32">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+            <Image
+              src={profilePicture}
+              width={1312}
+              height={1312}
+              alt={RESUME_DATA.initials}
+            />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>

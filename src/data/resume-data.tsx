@@ -63,6 +63,20 @@ export const RESUME_DATA = {
       link: "https://science-cup.pl/",
     },
   ],
+  languages: [
+    {
+      name: "Polish",
+      level: "Native",
+    },
+    {
+      name: "English",
+      level: "C1",
+    },
+    {
+      name: "German",
+      level: "A2/B1",
+    },
+  ],
   work: [
     {
       company: "Ente",

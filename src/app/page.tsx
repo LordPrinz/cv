@@ -93,11 +93,36 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
+
         <Section>
           <h2 className="text-xl font-bold">About 📝</h2>
           <p className="text-pretty text-justify text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Languages 🌍</h2>
+          <div className=" ml-2.5 flex flex-col gap-2.5">
+            {RESUME_DATA.languages.map((language) => {
+              return (
+                <Card key={language.name} className="after-dots relative">
+                  <CardHeader>
+                    <h3 className="inline-flex items-center gap-x-1.5 font-medium leading-none">
+                      {language.name}
+                      <span className="inline-flex gap-x-1">
+                        <Badge
+                          className="align-middle text-xs"
+                          variant="outline"
+                        >
+                          {language.level}
+                        </Badge>
+                      </span>
+                    </h3>
+                  </CardHeader>
+                </Card>
+              );
+            })}
+          </div>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Awards 🏆</h2>
@@ -124,9 +149,7 @@ export default function Page() {
             );
           })}
         </Section>
-        {/* <Section>
-          <h2 className="text-xl font-bold">Languages 🌍</h2>
-        </Section> */}
+
         <Section>
           <h2 className="text-xl font-bold">Work Experience 💼</h2>
           {RESUME_DATA.work.map((work) => {
@@ -185,7 +208,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section className="print-force-new-page">
+        <Section className="">
           <h2 className="text-xl font-bold">Skills 🔧</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
@@ -209,6 +232,11 @@ export default function Page() {
               );
             })}
           </div>
+          <p className="mt-10 hidden w-full scale-75 self-end text-xs text-muted-foreground print:block">
+            Wyrażam zgodę na przetwarzanie moich danych osobowych przez (nazwa
+            firmy) w celu prowadzenia rekrutacji na aplikowane przeze mnie
+            stanowisko.
+          </p>
         </Section>
       </section>
 

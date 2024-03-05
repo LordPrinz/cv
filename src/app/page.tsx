@@ -185,7 +185,7 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <h4 className="  text-sm leading-none">{work.title}</h4>
+                  <h4 className="text-sm leading-none">{work.title}</h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
@@ -231,7 +231,10 @@ export default function Page() {
                 <CardHeader>
                   <h3 className="font-semibold leading-none">
                     {interest.link ? (
-                      <a className="flex gap-1 underline" href={interest.link}>
+                      <a
+                        className="flex gap-1 underline print:no-underline"
+                        href={interest.link}
+                      >
                         {interest.name}
                         <LinkIcon className="size-5 -translate-y-0.5" />
                       </a>
@@ -266,7 +269,7 @@ export default function Page() {
         </Section>
       </section>
 
-      <p className="absolute bottom-0   hidden max-w-xs self-end text-[10px] text-muted-foreground print:block">
+      <p className="absolute bottom-0  hidden max-w-sm self-end text-[10px] text-muted-foreground print:block">
         Wyrażam zgodę na przetwarzanie moich danych osobowych przez (nazwa
         firmy) w celu prowadzenia rekrutacji na aplikowane przeze mnie
         stanowisko.

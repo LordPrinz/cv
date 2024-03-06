@@ -127,7 +127,7 @@ export default function Page() {
                         <LinkIcon className="size-5 -translate-y-0.5" />
                       </a>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-right text-sm tabular-nums text-gray-500">
                       {award.date}
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-right text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -185,7 +185,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-right text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
                   </div>
@@ -219,7 +219,7 @@ export default function Page() {
                         <LinkIcon className="size-5 -translate-y-0.5" />
                       </a>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-right text-sm tabular-nums text-gray-500">
                       {certificate.date}
                     </div>
                   </div>

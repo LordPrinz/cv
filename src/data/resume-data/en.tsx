@@ -255,7 +255,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Next.js",
         "Tailwind",
-        "Annonfiles",
+        "Anonfiles",
       ],
       description: "Platform for sharing files via links. (Currently down)",
 
@@ -293,7 +293,7 @@ export const RESUME_DATA = {
         "Sanity",
         "TypeScript",
       ],
-      description: "Website for a friend's game development organisation.",
+      description: "Website for a friends game development organization.",
 
       link: {
         label: "BigNtertainment",
@@ -342,7 +342,7 @@ export const RESUME_DATA = {
     {
       title: "Logic Gates Simulator",
       techStack: ["Side Project", "TypeScript", "SCSS"],
-      description: "Logic gates simulator - Motorola Science Cup 2021/2022",
+      description: "Logic Gates Simulator - Motorola Science Cup 2021/2022",
 
       link: {
         label: "logic-gates-simulator",
@@ -363,7 +363,7 @@ export const RESUME_DATA = {
       title: "Raspberry Project Server",
       techStack: ["Side Project", "TypeScript", "Node.js", "Express", "Linux"],
       description:
-        "Server to manage apps remotly on my raspberry pi (under development)",
+        "Server to manage apps remotely on my raspberry pi (under development)",
 
       link: {
         label: "raspberry-project-server",
@@ -383,7 +383,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PROJECT: Key (Frontend)",
-      techStack: ["Typescript", "React.js", "Tailwind", "Vite"],
+      techStack: ["TypeScript", "React.js", "Tailwind", "Vite"],
       description:
         "A frontend for a school classroom key system. (Whole project is not finished yet)",
 

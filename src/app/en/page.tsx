@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ProjectCard } from "@/components/project-card";
 import { LinkIcon } from "@/components/icons";
 import Image from "next/image";
-import profilePicture from "./opengraph-image.png";
+import profilePicture from "../opengraph-image.png";
 import RodoParagraph from "@/components/rodo-paragraph";
 import { getResumeData } from "@/data/resume-data";
 

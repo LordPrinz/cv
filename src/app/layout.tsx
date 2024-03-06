@@ -4,11 +4,8 @@ import "./globals.css";
 import React from "react";
 
 import { GeistSans } from "geist/font/sans";
-import { RESUME_DATA } from "@/data/resume-data";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
   authors: [
     {
       name: "Oskar Płaziński",
@@ -35,7 +32,6 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     siteName: "Oskar Płaziński | Full Stack Developer",
-    description: RESUME_DATA.summary,
     type: "profile",
     images: "/open-graph.png",
   },

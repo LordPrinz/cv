@@ -134,7 +134,7 @@ export const RESUME_DATA = {
     "Mongodb/PostgreSQL/MySQL",
     "Photoshop/Figma",
     "C++",
-    "Github",
+    "Git",
     "Docker",
   ],
   interests: [
@@ -304,7 +304,6 @@ export const RESUME_DATA = {
     {
       title: "Ailingo",
       techStack: [
-        "Side Project",
         "TypeScript",
         "React.js",
         "Tailwind",
@@ -321,13 +320,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Siti",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "React Native",
-        "MongoDB",
-        "Expo",
-      ],
+      techStack: ["TypeScript", "React Native", "MongoDB", "Expo"],
       description:
         "Hackheroes 2022 project - app for reporting city problems. (Currently down)",
 
@@ -338,7 +331,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Graphite",
-      techStack: ["Side Project", "TypeScript", "React.js", "Tailwind", "SVG"],
+      techStack: ["TypeScript", "React.js", "Tailwind", "SVG"],
       description: "A tool for visualising numerous graph algorithms.",
 
       link: {
@@ -358,7 +351,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Mechanizm z antykitchiry",
-      techStack: ["Side Project", "JavaScript", "React.js", "SCSS"],
+      techStack: ["JavaScript", "React.js", "SCSS"],
       description: "Website for AGH University competition.",
 
       link: {
@@ -390,7 +383,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PROJECT: Key (Frontend)",
-      techStack: ["Side Project", "Typescript", "React.js", "Tailwind", "Vite"],
+      techStack: ["Typescript", "React.js", "Tailwind", "Vite"],
       description:
         "A frontend for a school classroom key system. (Whole project is not finished yet)",
 
@@ -401,13 +394,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PROJECT: Key (Backend)",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "MongoDB",
-      ],
+      techStack: ["TypeScript", "Node.js", "Express", "MongoDB"],
       description:
         "A legacy backend for a school classroom key system. (Whole project is not finished yet)",
 

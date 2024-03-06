@@ -7,15 +7,15 @@ export const RESUME_DATA = {
   location: "Łany, Poland",
   locationLink: "https://www.google.com/maps/place/44-160+%C5%81any/",
   about:
-    "Passionate Full Stack Developer focused on quality and self-education",
+    "Passionate Junior Developer Dedicated to Innovation and Growth, Ready to Make Meaningful Contributions to Your Team.",
+
   summary:
-    "I am Oskar Płaziński, a determined junior developer driven by an unyielding dedication to progress and creativity. My path in software development embodies resilience and adaptability.  These are  main qualities I bring into each project I undertake. With a varied skill set refined through practical tasks and a fervor for learning, I stand prepared to deliver significant contributions to any development team.",
+    "I am Oskar Płaziński, currently studying as a Software Technician at ZSTI in Gliwice. I am a passionate developer who loves to create new stuff. I am always looking for something new and ways to improve my skills. I am really dedicated to all of my projects that i always try to finalize. You can check some of them on GitHub/LordPrinz. I am also a big fan of music and games. I play the piano. I even have a music channel on YouTube with my covers. ",
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://github.com/LordPrinz",
   contact: {
     email: "plazinski2902@gmail.com",
     tel: "+48510273465",
-    // github: "github.com/LordPrinz",
     social: [
       {
         name: "GitHub",

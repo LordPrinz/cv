@@ -9,12 +9,13 @@ export const RESUME_DATA = {
   about:
     "Passionate Full Stack Developer focused on quality and self-education",
   summary:
-    "I am Oskar Płaziński, and my journey embodies a junior developer's unwavering commitment to growth and innovation. With a diverse skill set and successful contributions to various projects, I showcase resilience and adaptability, ready to thrive within any development team.",
+    "I am Oskar Płaziński, a determined junior developer driven by an unyielding dedication to progress and creativity. My path in software development embodies resilience and adaptability.  These are  main qualities I bring into each project I undertake. With a varied skill set refined through practical tasks and a fervor for learning, I stand prepared to deliver significant contributions to any development team.",
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
-  personalWebsiteUrl: "https://dzaj.de",
+  personalWebsiteUrl: "https://github.com/LordPrinz",
   contact: {
     email: "plazinski2902@gmail.com",
     tel: "+48510273465",
+    // github: "github.com/LordPrinz",
     social: [
       {
         name: "GitHub",

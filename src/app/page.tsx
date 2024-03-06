@@ -212,6 +212,7 @@ export default function Page() {
                   <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-sm">
                     <h3 className="font-medium leading-none">
                       <a
+                        target="_blank"
                         className="flex items-center justify-start gap-1.5 underline print:no-underline"
                         href={certificate.link}
                       >

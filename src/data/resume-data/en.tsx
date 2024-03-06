@@ -169,6 +169,11 @@ export const RESUME_DATA = {
       date: "February 2024",
     },
     {
+      name: "Erasmus+ Portugal 2023 Attendance Certificate",
+      link: "https://cv.dzaj.de/certificates/erasmus-portugal.pdf",
+      date: "May 2023",
+    },
+    {
       name: "Next.js",
       link: "https://www.udemy.com/certificate/UC-6f4ca96d-5890-4bc4-bb5d-8076298b1c69/",
       date: "September 2022",
@@ -182,6 +187,11 @@ export const RESUME_DATA = {
       name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       link: "https://www.udemy.com/certificate/UC-e9a37fc2-a21a-44af-99e9-b80279e27ed3/",
       date: "June 2022",
+    },
+    {
+      name: "Erasmus+ Greece 2022 Attendance Certificate",
+      link: "https://cv.dzaj.de/certificates/erasmus-greece.pdf",
+      date: "May 2022",
     },
     {
       name: "Git & GitHub - The Practical Guide",

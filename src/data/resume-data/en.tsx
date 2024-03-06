@@ -131,7 +131,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Tailwind/SCSS",
     "React Native",
-    "Mongodb/PostgreSQL/MySQL",
+    "MongoDB/PostgreSQL/MySQL",
     "Photoshop/Figma",
     "C++",
     "Git",

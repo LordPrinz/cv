@@ -147,7 +147,7 @@ export const RESUME_DATA = {
     {
       name: "Music",
       description:
-        "I play the piano and I like to listen to music. I even had a music channel on YouTube with my covers.",
+        "I play the piano and I like to listen to music. I even have a music channel on YouTube with my covers.",
       link: "https://www.youtube.com/channel/UCbXJjpfKjvrlOAuUCexGtEA",
     },
     {

@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       start: "April 2023",
       end: "May 2023",
       description:
-        "Created a blog application for a client using Next.js, MongoDB, and Typescript",
+        "Created a blog application for a client using Next.js, MongoDB, and TypeScript",
     },
     {
       company: "Ente",
@@ -293,7 +293,7 @@ export const RESUME_DATA = {
         "Sanity",
         "TypeScript",
       ],
-      description: "Website for a friends game development organization.",
+      description: "Website for a friend's game development organization.",
 
       link: {
         label: "BigNtertainment",

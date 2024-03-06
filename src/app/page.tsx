@@ -110,30 +110,7 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Languages 🌍</h2>
-          <div className=" ml-2.5 flex flex-col gap-2.5">
-            {RESUME_DATA.languages.map((language) => {
-              return (
-                <Card key={language.name} className="after-dots relative">
-                  <CardHeader>
-                    <h3 className="inline-flex items-center gap-x-1.5 font-medium leading-none">
-                      {language.name}
-                      <span className="inline-flex gap-x-1">
-                        <Badge
-                          className="align-middle text-xs"
-                          variant="outline"
-                        >
-                          {language.level}
-                        </Badge>
-                      </span>
-                    </h3>
-                  </CardHeader>
-                </Card>
-              );
-            })}
-          </div>
-        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Awards 🏆</h2>
           {RESUME_DATA.awards.map((award) => {
@@ -226,7 +203,56 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section className="relative">
+          <h2 className="text-xl font-bold">Certificates 📜</h2>
+          {RESUME_DATA.certificates.map((certificate) => {
+            return (
+              <Card key={certificate.name}>
+                <CardHeader>
+                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-sm">
+                    <h3 className="font-medium leading-none">
+                      <a
+                        className="flex items-center justify-start gap-1.5 underline print:no-underline"
+                        href={certificate.link}
+                      >
+                        {certificate.name}{" "}
+                        <LinkIcon className="size-5 -translate-y-0.5" />
+                      </a>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certificate.date}
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            );
+          })}
+        </Section>
 
+        <Section>
+          <h2 className="text-xl font-bold">Languages 🌍</h2>
+          <div className=" ml-2.5 flex flex-col gap-2.5">
+            {RESUME_DATA.languages.map((language) => {
+              return (
+                <Card key={language.name} className="after-dots relative">
+                  <CardHeader>
+                    <h3 className="inline-flex items-center gap-x-1.5 font-medium leading-none">
+                      {language.name}
+                      <span className="inline-flex gap-x-1">
+                        <Badge
+                          className="align-middle text-xs"
+                          variant="outline"
+                        >
+                          {language.level}
+                        </Badge>
+                      </span>
+                    </h3>
+                  </CardHeader>
+                </Card>
+              );
+            })}
+          </div>
+        </Section>
         <Section className="relative">
           <h2 className="text-xl font-bold">Interests 🎮</h2>
           {RESUME_DATA.interests.map((interest) => {
@@ -250,32 +276,6 @@ export default function Page() {
                 <CardContent className="mt-2">
                   {interest.description}
                 </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
-
-        <Section className="relative">
-          <h2 className="text-xl font-bold">Certificates 📜</h2>
-          {RESUME_DATA.certificates.map((certificate) => {
-            return (
-              <Card key={certificate.name}>
-                <CardHeader>
-                  <div className="after-dots relative ml-2.5 flex items-center justify-between gap-x-2 text-sm">
-                    <h3 className="font-medium leading-none">
-                      <a
-                        className="flex items-center justify-start gap-1.5 underline print:no-underline"
-                        href={certificate.link}
-                      >
-                        {certificate.name}{" "}
-                        <LinkIcon className="size-5 -translate-y-0.5" />
-                      </a>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {certificate.date}
-                    </div>
-                  </div>
-                </CardHeader>
               </Card>
             );
           })}

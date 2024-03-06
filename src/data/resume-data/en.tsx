@@ -158,8 +158,8 @@ export const RESUME_DATA = {
   ],
   certificates: [
     {
-      name: "The research project on POLSL",
-      link: "https://dzaj.de/graphite",
+      name: "The research project at POLSL",
+      link: "https://cv.dzaj.de/certificates/posl-certificate.pdf",
       date: "February 2024",
     },
     {
@@ -169,12 +169,12 @@ export const RESUME_DATA = {
     },
     {
       name: "Next.js",
-      link: "https://www.udemy.my.com/certificate/UC-6f4ca96d-5890-4bc4-bb5d-8076298b1c69/",
+      link: "https://www.udemy.com/certificate/UC-6f4ca96d-5890-4bc4-bb5d-8076298b1c69/",
       date: "September 2022",
     },
     {
       name: "TypeScript",
-      link: "https://www.udemy.my/certificate/UC-f56b763f-0958-4940-88bc-90989fcdbb06",
+      link: "https://www.udemy.com/certificate/UC-f56b763f-0958-4940-88bc-90989fcdbb06",
       date: "August 2022",
     },
     {

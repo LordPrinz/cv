@@ -145,7 +145,7 @@ export const RESUME_DATA = {
     {
       name: "Programming",
       description:
-        "I love to create new things and solve problems. I always looking for new technologies and ways to improve my skills. ",
+        "I love to create new things and solve problems. I always look for new technologies and ways to improve my skills. ",
       link: "https://github.com/LordPrinz/",
     },
     {

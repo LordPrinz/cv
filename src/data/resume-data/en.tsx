@@ -89,7 +89,7 @@ export const RESUME_DATA = {
       start: "May 2023",
       end: "June 2023",
       description:
-        "Implemented new features, worked on improving train control system, and created a web application for monitoring and controlling trains. Technologies: C++, Linux, TypeScript, React, Node.js",
+        "Implementing new features, working on improving train control system, and created a web application for monitoring and controlling trains. Technologies: C++, Linux, TypeScript, React, Node.js",
     },
     {
       company: "Erasmus+ Participant at Bpg Multimédia",
@@ -99,7 +99,7 @@ export const RESUME_DATA = {
       start: "April 2023",
       end: "May 2023",
       description:
-        "Created a blog application for a client using Next.js, MongoDB, and TypeScript",
+        "Creating a blog application for a client using Next.js, MongoDB, and TypeScript",
     },
     {
       company: "Ente",
@@ -110,7 +110,7 @@ export const RESUME_DATA = {
       start: "April 2022",
       end: "May 2022",
       description:
-        "Worked on improving train control system. Technologies: C++, Linux",
+        "Working on improving train control system. Technologies: C++, Linux",
     },
     {
       company: "Erasmus+ Participant at Ipodomi",
@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       start: "May 2022",
       end: "May 2022",
       description:
-        "Worked on creating an attractions web map of Thessaloniki using React and TypeScript",
+        "Working on creating an attractions web map of Thessaloniki using React and TypeScript",
     },
   ],
   skills: [
@@ -145,7 +145,7 @@ export const RESUME_DATA = {
     {
       name: "Programming",
       description:
-        "I love to create new things and solve problems. I am always looking for new technologies and ways to improve my skills. ",
+        "I love to create new things and solve problems. I always looking for new technologies and ways to improve my skills. ",
       link: "https://github.com/LordPrinz/",
     },
     {
@@ -389,7 +389,7 @@ export const RESUME_DATA = {
       title: "PROJECT: Key (Frontend)",
       techStack: ["TypeScript", "React.js", "Tailwind", "Vite"],
       description:
-        "A frontend for a school classroom key system. (Whole project is not finished yet)",
+        "A frontend part for a school classroom door key system. (The whole project is not finished yet)",
 
       link: {
         label: "project-key",
@@ -400,7 +400,7 @@ export const RESUME_DATA = {
       title: "PROJECT: Key (Backend)",
       techStack: ["TypeScript", "Node.js", "Express", "MongoDB"],
       description:
-        "A legacy backend for a school classroom key system. (Whole project is not finished yet)",
+        "A legacy backend part for a school classroom door key system. (The whole project is not finished yet)",
 
       link: {
         label: "project-key",

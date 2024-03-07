@@ -10,7 +10,7 @@ export const RESUME_DATA = {
     "Passionate Junior Developer Dedicated to Innovation and Growth, Ready to Make Meaningful Contributions to Your Team.",
 
   summary:
-    "I am Oskar Płaziński, currently studying as a Software Technician at ZSTI in Gliwice. I am a passionate developer who loves to create new stuff. I am always looking for new challenges and ways to improve my skills. I am really dedicated to all of my projects that I always try to finalize. You can check some of them on GitHub/LordPrinz. I love music and games. I play the piano and share my covers on my YouTube channel.",
+    "I am Oskar Płaziński, currently studying as a Software Technician at ZSTI in Gliwice. I am a passionate developer who loves to create new stuff. I am always looking for new challenges and ways to improve my skills. I am really dedicated to all of my projects that I always try to accomplish. All of them are available on GitHub/LordPrinz. I love music and games. I play the piano and share my covers on my YouTube channel.",
 
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://github.com/LordPrinz",

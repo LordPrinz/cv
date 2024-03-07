@@ -135,6 +135,7 @@ export const RESUME_DATA = {
     "Photoshop/Figma",
     "C++",
     "Git",
+    "Linux/Bash",
     "Docker",
   ],
   interests: [

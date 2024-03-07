@@ -136,6 +136,8 @@ export const RESUME_DATA = {
     "C++",
     "Git",
     "Linux/Bash",
+    "Java",
+    "Python",
     "Docker",
   ],
   interests: [

@@ -181,7 +181,9 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Education 📚</h2>
+          <h2 className="print-force-new-page text-xl font-bold">
+            Education 📚
+          </h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>

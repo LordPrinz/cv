@@ -45,6 +45,11 @@ export const RESUME_DATA = {
   ],
   awards: [
     {
+      title: 'Winner of the "Złoty Indeks Politechniki Śląskiej" competition ',
+      date: "March 2024",
+      link: "https://www.polsl.pl/rd1-cos/zi-ii-etap-konkursu/",
+    },
+    {
       title: 'Laureate of 18th edition of "Gliwicki Laur Nauki"',
       date: "November 2023",
       link: "https://gliwice.eu/aktualnosci/miasto/gliwicki-laur-nauki-2023",

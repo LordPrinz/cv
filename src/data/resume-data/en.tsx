@@ -1,4 +1,9 @@
-import { dzajcoLogo, enteLogo, ipodomiLogo } from "@/images/logos";
+import {
+  billtechLogo,
+  dzajcoLogo,
+  enteLogo,
+  ipodomiLogo,
+} from "@/images/logos";
 import { DiscordIcon, GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -85,6 +90,16 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Billtech",
+      link: "https://www.billtech.pl/",
+      badges: [],
+      title: "Typescript Developer",
+      logo: billtechLogo,
+      start: "June 2024",
+      end: "Present",
+      description: "Developing API and billing platform for banks",
+    },
     {
       company: "Ente",
       link: "https://ente.com.pl/",

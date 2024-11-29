@@ -1,5 +1,6 @@
 import {
   billtechLogo,
+  doubledataLogo,
   dzajcoLogo,
   enteLogo,
   ipodomiLogo,
@@ -15,7 +16,7 @@ export const RESUME_DATA = {
     "Passionate Junior Developer Dedicated to Innovation and Growth, Ready to Make Meaningful Contributions to Your Team.",
 
   summary:
-    "I am Oskar Płaziński, currently studying as a Software Technician at ZSTI in Gliwice. I am a passionate developer who loves to create new stuff. I am always looking for new challenges and ways to improve my skills. I am really dedicated to all of my projects that I always try to accomplish. All of them are available on GitHub/LordPrinz. I love music and games. I play the piano and share my covers on my YouTube channel.",
+    "I am Oskar Płaziński, currently studying computer science at POLSL . I am a passionate developer who loves to create new stuff. I am always looking for new challenges and ways to improve my skills. I am really dedicated to all of my projects that I always try to accomplish. All of them are available on GitHub/LordPrinz. I love music and games. I also play the piano",
 
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://github.com/LordPrinz",
@@ -41,6 +42,12 @@ export const RESUME_DATA = {
     ],
   },
   education: [
+    {
+      school: "Politechnika Śląska",
+      degree: "Bachelor of Science in Computer Science",
+      start: "2024",
+      end: "2028",
+    },
     {
       school: "Zespół Szkół Techniczno-Informatycznych w Gliwicach",
       degree: "Software Technician INF.03 & INF.04 certificate",
@@ -91,14 +98,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "DoubleData",
+      link: "https://doubledata.com/",
+      badges: [],
+      title: "Typescript Developer",
+      logo: doubledataLogo,
+      start: "August 2024",
+      end: "December 2024",
+      description: "Developing website, scraping data",
+    },
+    {
       company: "Billtech",
       link: "https://www.billtech.pl/",
       badges: [],
       title: "Typescript Developer",
       logo: billtechLogo,
       start: "June 2024",
-      end: "Present",
-      description: "Developing API and billing platform for banks",
+      end: "December 2024",
+      description:
+        "Developing API and billing platform for banks, scraping data",
     },
     {
       company: "Ente",

@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       title: "Typescript Developer",
       logo: doubledataLogo,
       start: "August 2024",
-      end: "December 2024",
+      end: "Current",
       description: "Developing website, scraping data",
     },
     {

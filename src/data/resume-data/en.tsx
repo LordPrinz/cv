@@ -291,7 +291,7 @@ export const RESUME_DATA = {
     {
       title: "DoubleData",
       techStack: [
-        "Side Project",
+        "Builder.io",
         "TypeScript",
         "Next.js"
       ],

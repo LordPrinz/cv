@@ -13,10 +13,10 @@ export const RESUME_DATA = {
   location: "Łany, Poland",
   locationLink: "https://www.google.com/maps/place/44-160+%C5%81any/",
   about:
-    "Passionate Junior Developer Dedicated to Innovation and Growth, Ready to Make Meaningful Contributions to Your Team.",
+    "Passionate Developer Dedicated to Innovation and Growth, Ready to Make Meaningful Contributions to Your Team.",
 
   summary:
-    "I am Oskar Płaziński, currently studying computer science at POLSL . I am a passionate developer who loves to create new stuff. I am always looking for new challenges and ways to improve my skills. I am really dedicated to all of my projects that I always try to accomplish. All of them are available on GitHub/LordPrinz. I love music and games. I also play the piano",
+    "I am Oskar Płaziński, currently studying computer science at the Silesian University of Technology. I am a passionate developer who loves creating and exploring new ideas. I am always looking for challenges that help me grow and improve my skills. I am fully dedicated to the projects I take on and always strive to complete them with the best results. Many of my works can be found on GitHub under the username LordPrinz. Outside of technology, I enjoy music and gaming, and I also play the piano.",
 
   avatarUrl: "https://cv.dzaj.de/cv-photo.png",
   personalWebsiteUrl: "https://github.com/LordPrinz",
@@ -377,6 +377,16 @@ export const RESUME_DATA = {
       link: {
         label: "graphite",
         href: "https://github.com/team-nullptr/graphite",
+      },
+    },
+    {
+      title: "Dzajtcper",
+      techStack: ["Side Project", "Python", "Linux"],
+      description: "Real-time TCP CWND monitoring and analysis toolkit",
+
+      link: {
+        label: "dzajtcper",
+        href: "https://github.com/LordPrinz/dzajtcper",
       },
     },
     {

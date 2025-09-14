@@ -271,21 +271,34 @@ export const RESUME_DATA = {
         href: "https://github.com/LordPrinz/dzajco",
       },
     },
-    {
-      title: "Dzajcarz",
+        {
+      title: "Dzajdrop",
       techStack: [
         "Side Project",
         "TypeScript",
-        "Node.js",
-        "MongoDB",
-        "Discord.js",
-        "Voice API",
+        "Next.js",
+        "Tailwind",
+        "Anonfiles",
       ],
-      description: "Advanced Discord bot with great amount of features",
+      description: "Platform for sharing files via links. (Currently down)",
 
       link: {
-        label: "dzajcarz",
-        href: "https://github.com/dzajlopment/dzajcarz-pro",
+        label: "dzajdrop",
+        href: "https://github.com/LordPrinz/dzajdrop",
+      },
+    },
+    {
+      title: "DoubleData",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js"
+      ],
+      description: "DoubleData – Marketing Landing Page",
+
+      link: {
+        label: "DoubleData",
+        href: "https://doubledata.com/",
       },
     },
     {

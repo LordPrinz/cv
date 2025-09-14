@@ -271,20 +271,21 @@ export const RESUME_DATA = {
         href: "https://github.com/LordPrinz/dzajco",
       },
     },
-        {
-      title: "Dzajdrop",
+    {
+      title: "Dzajcarz",
       techStack: [
         "Side Project",
         "TypeScript",
-        "Next.js",
-        "Tailwind",
-        "Anonfiles",
+        "Node.js",
+        "MongoDB",
+        "Discord.js",
+        "Voice API",
       ],
-      description: "Platform for sharing files via links. (Currently down)",
+      description: "Advanced Discord bot with great amount of features",
 
       link: {
-        label: "dzajdrop",
-        href: "https://github.com/LordPrinz/dzajdrop",
+        label: "dzajcarz",
+        href: "https://github.com/dzajlopment/dzajcarz-pro",
       },
     },
     {

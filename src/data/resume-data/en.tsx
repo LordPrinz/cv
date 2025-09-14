@@ -103,7 +103,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Typescript Developer",
       logo: doubledataLogo,
-      start: "August 2024",
+      start: "June 2024",
       end: "Current",
       description: "Developing website, scraping data",
     },

@@ -312,14 +312,15 @@ export const RESUME_DATA = {
       title: "Speak",
       techStack: [
         "TypeScript",
+        "React Native",
+        "Expo",
         "Bun",
         "Elysia",
         "PostgreSQL",
         "Redis",
-        "BullMQ",
       ],
       description:
-        "Backend for a language-learning app: courses, video lessons, flashcards, progress tracking and rewards, staff invitations and in-app purchases via RevenueCat.",
+        "Language-learning mobile app and its backend: courses, video lessons, flashcards, progress tracking and rewards, and in-app purchases via RevenueCat.",
     },
     {
       title: "Blood Harbour Ripper",
@@ -420,6 +421,12 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Dzajtrain",
+      techStack: ["TypeScript", "React.js", "Redux", "Leaflet", "SCSS"],
+      description:
+        "Web application for monitoring and controlling trains in real time on a map, built during my internship at Ente.",
+    },
+    {
       title: "Natours",
       techStack: ["Side Project", "HTML", "SCSS"],
       description: "Landing page of Natours tour store.",
@@ -437,6 +444,16 @@ export const RESUME_DATA = {
       link: {
         label: "nexter",
         href: "https://github.com/LordPrinz/Nexter",
+      },
+    },
+    {
+      title: "Trillo",
+      techStack: ["Side Project", "HTML", "SCSS"],
+      description: "Landing page of Trillo trips center.",
+
+      link: {
+        label: "trillo",
+        href: "https://lordprinz.github.io/Trillo/",
       },
     },
     {

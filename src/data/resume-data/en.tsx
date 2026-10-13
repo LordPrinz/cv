@@ -62,6 +62,12 @@ export const RESUME_DATA = {
       link: "https://github.com/LordPrinz/snowflake-ascii",
     },
     {
+      title:
+        'Selected for "Rozwiń Skrzydła", the POLSL talent mentoring program',
+      date: "2024/25 - 2026/27",
+      link: "https://www.polsl.pl/ps_aktualnosci/viii-edycja-programu-mentorskiego-rozwin-skrzydla/",
+    },
+    {
       title: 'Winner of the "Złoty Indeks Politechniki Śląskiej" competition ',
       date: "March 2024",
       link: "https://www.polsl.pl/rd1-cos/zi-ii-etap-konkursu/",
@@ -120,7 +126,7 @@ export const RESUME_DATA = {
       start: "December 2025",
       end: "Current",
       description:
-        "Leading development of DzajKSeF – a Windows desktop app for sending invoices to the Polish National e-Invoice System (KSeF). Technologies: C#, .NET, React, TypeScript, Cloudflare Workers, Hono, D1",
+        "Leading development of DzajKSeF, a Windows desktop app for sending invoices to the Polish National e-Invoice System (KSeF). Technologies: C#, .NET, React, TypeScript, Cloudflare Workers, Hono, D1",
     },
     {
       company: "DoubleData",
@@ -147,7 +153,7 @@ export const RESUME_DATA = {
       company: "Ente",
       link: "https://ente.com.pl/",
       badges: ["Internship"],
-      title: "C++ Developer → Full Stack Developer",
+      title: "C++ Developer, then Full Stack Developer",
       logo: enteLogo,
       start: "May 2023",
       end: "June 2023",
@@ -371,7 +377,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Next.js"
       ],
-      description: "DoubleData – Marketing Landing Page",
+      description: "Marketing landing page for DoubleData",
 
       link: {
         label: "DoubleData",

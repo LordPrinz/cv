@@ -147,7 +147,7 @@ export default function Page() {
                         <LinkIcon className="size-5 -translate-y-0.5 print:hidden" />
                       </a>
                     </h3>
-                    <div className="text-right text-sm text-gray-500 tabular-nums">
+                    <div className="text-right text-sm whitespace-nowrap text-gray-500 tabular-nums">
                       {award.date}
                     </div>
                   </div>

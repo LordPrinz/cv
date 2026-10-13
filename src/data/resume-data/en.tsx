@@ -57,6 +57,11 @@ export const RESUME_DATA = {
   ],
   awards: [
     {
+      title: 'Winner of the POLSL-wide "Winter Coding Competition"',
+      date: "January 2026",
+      link: "https://github.com/LordPrinz/snowflake-ascii",
+    },
+    {
       title: 'Winner of the "Złoty Indeks Politechniki Śląskiej" competition ',
       date: "March 2024",
       link: "https://www.polsl.pl/rd1-cos/zi-ii-etap-konkursu/",
@@ -97,6 +102,26 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "GTVBus",
+      link: "",
+      badges: ["Freelance"],
+      title: "Software Developer",
+      start: "June 2026",
+      end: "September 2026",
+      description:
+        "Digitalization of the company's bus timetables",
+    },
+    {
+      company: "Informatyka Bez Granic",
+      link: "",
+      badges: ["Collaboration"],
+      title: "Lead Developer",
+      start: "December 2025",
+      end: "Current",
+      description:
+        "Leading development of DzajKSeF – a Windows desktop app for sending invoices to the Polish National e-Invoice System (KSeF). Technologies: C#, .NET, React, TypeScript, Cloudflare Workers, Hono, D1",
+    },
     {
       company: "DoubleData",
       link: "https://doubledata.com/",
@@ -168,14 +193,22 @@ export const RESUME_DATA = {
     "React",
     "Next.js",
     "Node.js",
+    "Bun",
     "Tailwind/SCSS",
     "React Native",
-    "MongoDB/PostgreSQL/MySQL",
-    "Photoshop/Figma",
+    "C#/.NET",
+    "Java",
+    "Python",
     "C++",
+    "MongoDB/PostgreSQL/MySQL/SQLite",
+    "Cloudflare Workers/D1/R2",
+    "Hono",
+    "Docker",
     "Git",
     "Linux/Bash",
-    "Docker",
+    "eBPF",
+    "Agentic Coding (Claude Code, Codex)",
+    "Photoshop/Figma",
   ],
   interests: [
     {
@@ -256,6 +289,49 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "DzajKSeF",
+      techStack: [
+        "C#",
+        ".NET",
+        "React",
+        "TypeScript",
+        "Cloudflare Workers",
+        "Hono",
+        "D1",
+      ],
+      description:
+        "Windows desktop app for sending invoices to the Polish KSeF e-invoice system, with a serverless licensing backend. Built in collaboration with Informatyka Bez Granic.",
+    },
+    {
+      title: "Blood Harbour Ripper",
+      techStack: [
+        "Side Project",
+        "Java",
+        "Fabric",
+        "NeoForge",
+        "Forge",
+        "Gradle",
+      ],
+      description:
+        "Minecraft weapon mod with throwable Bone Skewers, executions and a dash ability. Published on CurseForge and Modrinth, supports multiple game versions and loaders from a single codebase.",
+
+      link: {
+        label: "bloodharbourripper",
+        href: "https://github.com/LordPrinz/bloodharbourripper",
+      },
+    },
+    {
+      title: "Snowflake ASCII",
+      techStack: ["TypeScript", "Bun", "3D Rendering"],
+      description:
+        "Procedural 3D snowflake generator rendered in ASCII in the browser. Winning entry of the Winter Coding Competition at the Silesian University of Technology.",
+
+      link: {
+        label: "snowflake-ascii",
+        href: "https://lordprinz.github.io/snowflake-ascii/dist/",
+      },
+    },
+    {
       title: "Dzajco",
       techStack: [
         "Side Project",
@@ -301,6 +377,12 @@ export const RESUME_DATA = {
         label: "DoubleData",
         href: "https://doubledata.com/",
       },
+      extraLinks: [
+        {
+          label: "preview.doubledata.com",
+          href: "https://preview.doubledata.com/",
+        },
+      ],
     },
     {
       title: "Dzajdrop",

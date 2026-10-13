@@ -67,7 +67,7 @@ export const CommandMenu = ({ links }: Props) => {
           <CommandGroup heading="Links">
             {links.map(({ url, title }) => (
               <CommandItem
-                key={url}
+                key={title}
                 onSelect={() => {
                   setOpen(false);
                   window.open(url, "_blank");

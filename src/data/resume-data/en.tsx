@@ -323,6 +323,37 @@ export const RESUME_DATA = {
         "Language-learning mobile app and its backend: courses, video lessons, flashcards, progress tracking and rewards, and in-app purchases via RevenueCat.",
     },
     {
+      title: "DzajTour",
+      techStack: [
+        "TypeScript",
+        "Electron",
+        "React",
+        "SQLite",
+        "MapLibre",
+        "GTFS",
+      ],
+      description:
+        "Offline-first desktop app for designing GTVBus's bus network: routes, timetables, transfers and fleet, with GTFS and PDF timetable export. Built in collaboration with GTVBus.",
+    },
+    {
+      title: "Epsilon Homeserver",
+      techStack: [
+        "C#",
+        ".NET",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Grafana",
+      ],
+      description:
+        "Matrix protocol homeserver built as a team project at the Silesian University of Technology, with clean architecture, CI and a full observability stack.",
+
+      link: {
+        label: "epsilon-homeserver",
+        href: "https://github.com/polsl-matrix/epsilon-homeserver",
+      },
+    },
+    {
       title: "Blood Harbour Ripper",
       techStack: [
         "Side Project",

@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ProjectCard } from "@/components/project-card";
 import { LinkIcon } from "@/components/icons";
 import Image from "next/image";
+import { Suspense } from "react";
 import profilePicture from "./opengraph-image.png";
 import RodoParagraph from "@/components/rodo-paragraph";
 import { getResumeData } from "@/data/resume-data";
@@ -307,7 +308,9 @@ export default function Page() {
           </div>
         </Section>
       </section>
-      <RodoParagraph />
+      <Suspense>
+        <RodoParagraph />
+      </Suspense>
       <a
         href="https://cv.dzaj.de"
         className="fixed bottom-0 right-10 hidden text-xs text-muted-foreground print:block"

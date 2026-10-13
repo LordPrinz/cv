@@ -309,6 +309,19 @@ export const RESUME_DATA = {
         "Windows desktop app for sending invoices to the Polish KSeF e-invoice system, with a serverless licensing backend. Built in collaboration with Informatyka Bez Granic.",
     },
     {
+      title: "Speak",
+      techStack: [
+        "TypeScript",
+        "Bun",
+        "Elysia",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+      ],
+      description:
+        "Backend for a language-learning app: courses, video lessons, flashcards, progress tracking and rewards, staff invitations and in-app purchases via RevenueCat.",
+    },
+    {
       title: "Blood Harbour Ripper",
       techStack: [
         "Side Project",
@@ -399,7 +412,7 @@ export const RESUME_DATA = {
         "Tailwind",
         "Anonfiles",
       ],
-      description: "Platform for sharing files via links. (Currently down)",
+      description: "Platform for sharing files via links.",
 
       link: {
         label: "dzajdrop",
@@ -458,6 +471,36 @@ export const RESUME_DATA = {
       link: {
         label: "ailingo",
         href: "https://github.com/extl0l/ailingo-frontend",
+      },
+    },
+    {
+      title: "Safety Shield",
+      techStack: [
+        "TypeScript",
+        "React.js",
+        "Leaflet",
+        "Redux",
+        "Node.js",
+        "Express",
+        "MongoDB",
+      ],
+      description:
+        "Silesian CYBERhackathon 2023 project - map-based app for reporting safety incidents in zones, with a REST API backend.",
+
+      link: {
+        label: "safety-shield",
+        href: "https://github.com/dzajlopment/safety-shield",
+      },
+    },
+    {
+      title: "Arkanoid",
+      techStack: ["C#", "Unity"],
+      description:
+        "Motorola Science Cup 2022/2023 project - Arkanoid game with 32 levels, a special level, power-ups and a level editor.",
+
+      link: {
+        label: "arkanoid",
+        href: "https://github.com/dzajlopment/arkanoid",
       },
     },
     {
